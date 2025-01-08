@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Roboto", serif;
+  background: url("../img/black.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.user {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 340px;
+  height: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  color: #fff;
+}
+h2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+h3 {
+  padding: 5px;
+}
+.user-name {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  padding: 15px 0;
+}
+.btn-tod-posts-photos {
+  display: flex;
+  gap: 15px;
+}
+.todos {
+  background-color: red;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 7px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.photo {
+  background-color: green;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 7px;
+}
+.postss {
+  background-color: blue;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 7px;
+}
+.todos-title {
+  color: white;
+  padding: 10px 0;
+}
+.todos-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  height: 120px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  color: #fff;
+}
+.todos-status {
+  display: flex;
+  justify-content: space-between;
+}
+.todos-card {
+  margin-top: 25px;
+}
