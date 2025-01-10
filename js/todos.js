@@ -24,6 +24,7 @@ function getDataUser(todo) {
           <p class="todos-status">Completed: <span> ${
             todo.completed ? "✅" : "❌"
           }</span></p>
+         <button class="todos-btn-albums"><a href="./album.html">Albums</a></button>   
         </div>
       </div>
     `;

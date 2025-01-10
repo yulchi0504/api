@@ -1,6 +1,5 @@
 let userGet = document.querySelector(".user");
 
-
 function getXHR(url, calbak) {
   let xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
@@ -27,8 +26,8 @@ function getDataUser(user) {
      <h3> Adress:${user.address.city}</h3>
     <div class="btn-tod-posts-photos">
       <button class="todos"><a href="./todos.html">Todos</a></button>
-      <button class="photo"><a href="#">Photos</a></button>
-      <button class="postss"><a href="#">Posts</a></button>
+      <button class="photo"><a href="./photo.html">Photos</a></button>
+      <button class="postss"><a href="./posts.html">Posts</a></button>
     </div>
    </div>
   </div>
