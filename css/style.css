@@ -8,13 +8,13 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1500px;
   padding: 0 20px;
   margin: 0 auto;
 }
 body {
   font-family: "Roboto", serif;
-  background: url("../img/black.png");
+  background: url("../img/120380.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
